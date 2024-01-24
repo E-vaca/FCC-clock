@@ -1,6 +1,6 @@
 export interface DisplayState {
     time: number;
-    timeType: "session" | "break";
+    timeType: "Session" | "Break";
     timerRunning: boolean;
 }
 

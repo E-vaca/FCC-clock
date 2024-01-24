@@ -6,7 +6,7 @@ interface TimeSetterProps {
     min: number;
     max: number;
     interval: number;
-    type: 'Break' | 'Session';
+    type: 'break' | 'session';
 }
 
 const TimeSetter: React.FC<TimeSetterProps> = ({
